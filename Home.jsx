@@ -40,6 +40,9 @@ function Hero() {
         <div className="mt-8 flex flex-wrap gap-3">
           <a href="#categories" className="btn-primary">Find a Service</a>
           <Link to="/register/provider" className="btn-outline">Become a Provider</Link>
+           <Link to="/login" className="text-sm font-semibold text-white hover:text-teal-400 transition ml-2">
+    Sign In
+  </Link>
         </div>
       </div>
     </section>
